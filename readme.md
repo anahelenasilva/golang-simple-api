@@ -26,3 +26,6 @@ curl http://localhost:8081/checkout\?id\=2 --request "PATCH"
 ```
 
 ## Return a book
+```curl
+curl http://localhost:8081/return\?id\=2 --request "PATCH"
+```
